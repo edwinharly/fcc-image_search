@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL Shortener</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    </head>
+    <body>
+        <div>
+            <h1 class="header">Image Search Abstraction Layer</h1>
+            <h3>Example usage:</h3>
+            <code>https://harly-fcc-imagesearch.herokuapp.com/api/imagesearch/dank%20meme?offset=5</code>
+            <br/>
+            <code>https://harly-fcc-imagesearch.herokuapp.com/api/imagesearch/doge?offset=2</code>
+            <h3>Example output</h3>
+            <code>
+                [
+                    {
+                        "url":"http://www.bing.com/cr?IG=91112135527D4360B6011001AD869BC5&CID=3BD6F095129B6A4627CBFAE913896B80&rd=1&h=G_8ckLMxnnRKunfgEiuy7BJI-XFUF8Mc-FXxXTq9Y4E&v=1&r=http%3a%2f%2fi1.kym-cdn.com%2fphotos%2fimages%2foriginal%2f000%2f663%2f060%2f024.png&p=DevEx,5008.1",
+                        "snippet":"doge dog meme MEMEs",
+                        "thumbnail":"https://tse4.mm.bing.net/th?id=OIP.GJxISvb0eWdkxnfqAVyPiQEsEq&pid=Api",
+                        "context":"http://www.bing.com/cr?IG=91112135527D4360B6011001AD869BC5&CID=3BD6F095129B6A4627CBFAE913896B80&rd=1&h=C8E40jMRH51COGMBAJoKKsE6IVO_oyCx_Lt5qXdAPsA&v=1&r=http%3a%2f%2fmemeaddicts.com%2ftrending%2fdoge-dog-meme&p=DevEx,5007.1"
+                    },
+                    {
+                        "url":"http://www.bing.com/cr?IG=91112135527D4360B6011001AD869BC5&CID=3BD6F095129B6A4627CBFAE913896B80&rd=1&h=2CfR8t4jrfQSTQ1iWMy4xrtDezI9Ax-DoauqKzZF258&v=1&r=http%3a%2f%2fcdn.funnymeme.com%2fwp-content%2fuploads%2f2014%2f01%2fdoge-meme-dog-e-much-robot-640x461.jpg&p=DevEx,5014.1",
+                        "snippet":"Nothing found for Misc meme Doge meme Doge meme dog e much robot",
+                        "thumbnail":"https://tse4.mm.bing.net/th?id=OIP.ACCPPuP9dw4ZrOlxjTaGNQEmDU&pid=Api",
+                        "context":"http://www.bing.com/cr?IG=91112135527D4360B6011001AD869BC5&CID=3BD6F095129B6A4627CBFAE913896B80&rd=1&h=_SI1bDdFe8LTXm4MB8l7ZY-l0_sImXwh_nNEdwNPNfM&v=1&r=http%3a%2f%2ffunny-pictures.picphotos.net%2fdog-dad-meme-doge-meme-funny%2fblog.swagbucks.com*wp-content*uploads*2013*06*dog-dad-meme.jpg&p=DevEx,5013.1"
+                    }
+                ]
+            </code>
+            <h3>To view recent search queries:</h3>
+            <a>https://harly-fcc-imagesearch.herokuapp.com/api/latest/imagesearch/</a>
+        </div>
+    </body>
+</html>
